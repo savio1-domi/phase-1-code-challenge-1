@@ -1,11 +1,14 @@
+.bigcontainer{
+    background-color: #000000;
+}
 /* basic styling of Student Grade Generator */
 .box{
-    background-color: #9acd32;
+    background-color: #a52aa5;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header.con h1 {
+.h1 {
     text-align: center;
     color: aqua;
 }
@@ -18,15 +21,15 @@ form {
 input[type="number"] {
     margin-bottom: 10px;
 }
-button {
+.button1 {
     padding: 10px;
     border: none;
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     cursor: pointer;
 }
-button:hover {
-    background-color: #3e8e41;
+.button1:hover {
+    background-color: #daa520;
 }
 #result {
     text-align: center;
@@ -41,9 +44,11 @@ button:hover {
     padding: 0;
 }
 
-h1 {
+.head {
     text-align: center;
+    color: #4CAF50;
 }
+
 
 form {
     display: flex;
@@ -56,7 +61,7 @@ input[type="number"] {
     margin-bottom: 10px;
 }
 
-button {
+.button2 {
     padding: 10px;
     border: none;
     background-color: #4CAF50;
@@ -64,8 +69,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #3e8e41;
+.button2:hover {
+    background-color: #000000;
 }
 
 #product {
@@ -76,14 +81,13 @@ button:hover {
 
 /* basic styling of Net Salary Calculator */
 .container {
-    position: middle;
     width: 100vw;
     background-color: rgb(32, 15, 15);
     color: white;
     overflow: hidden;
 }
 
-button{
+.button{
     background: transparent;
     color: white;
     font-weight: 750;
@@ -95,7 +99,7 @@ button{
     margin-top: 30px;
     transition: 0.15s ease-in-out;
 }
-button:hover{
+.button:hover{
     background: transparent;
     color: red;
     font-weight: 750;
@@ -107,17 +111,17 @@ input{
     outline: none;
 }
 
-body .overallColumn{
+.overallColumn{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-body .overallColumn .column2{
+.overallColumn .column2{
     margin-right: 20px;
 }
 
-body .overallColumn .column2 span{
+.overallColumn .column2 span{
     border-radius: 8px;
     padding: 5px 35px;
     background: white;
@@ -126,19 +130,18 @@ body .overallColumn .column2 span{
     color: black;
 }
 
-body header, button{
+.header, .button{
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-body header h1{
+.header {
     color: red;
+    text-align: center;
 }
 
-body .container{
-    margin-left: 20px;
-}
+
 body .container h3{
     margin-top: 16px;
 }
