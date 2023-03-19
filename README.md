@@ -43,8 +43,8 @@ Change directory to the repo folder:
 
     code . 
 
-## Running the application
-Use the browser to run the application.
+## To test the application
+Use the browser.
             
 ## Author
 Senior Developer Dominic Juma
