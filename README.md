@@ -16,7 +16,6 @@ A program that takes as input the speed of a car e.g 80. If the speed is less th
 #### Net-Salary Calculator 
 A program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary The program takes in twp parameter: the basic salary and their total benefits.
 
-
 # Getting started
 If you would wish to access the content in this repository. You must have a computer that runs on either Windows 7+, Linux or Mac OS.
 
