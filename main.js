@@ -1,11 +1,9 @@
 // Student Grade Generator
-
 function generateGrade() {
-    // get the input value
+    // variables
     const marks = document.getElementById("marks").value;
-
-    // calculate the grade based on the marks
     let grade;
+    // calculate grade following the condition given 
     if (marks > 79) {
         grade = "A";
     } else if (marks >= 60 && marks <= 79) {
@@ -18,25 +16,23 @@ function generateGrade() {
         grade = "E";
     }
 
-    // show the result
+    // result pop up
     const resultElement = document.getElementById("result");
     resultElement.innerHTML = `The student's grade is: ${grade}`;
 }
 
 
 // Speed Detector
-
 function detectSpeed() {
-    // get the input value
+    // variables
     const speed = document.getElementById("speed").value;
-
-    // calculate the demerit points based on the speed
     let demeritPoints = 0;
+    // calculate the demerit points following the condition given 
     if (speed > 70) {
       demeritPoints = Math.floor((speed - 70) / 5);
     }
 
-    // show the result
+    // result pop up
     const resultElement = document.getElementById("product");
     if (demeritPoints > 12) {
       resultElement.innerHTML = "License suspended";
@@ -50,15 +46,17 @@ function detectSpeed() {
 // Net Salary Calculator
 
 function calculateNetSalary() {
-    // get user input for basic salary and benefits
+    // naming variables
     let basicSalary = parseFloat(document.getElementById("basicSalary").value);
     let benefits = parseFloat(document.getElementById("benefits").value);
-
-    // calculate gross salary
-    let grossSalary = basicSalary + benefits;
-
-    // calculate payee (KRA)
+    let grossSalary = basicSalary + benefits; // calculate gross salary
     let KRA = 0;
+    let nhifDeductions = 0;  
+    let nssfDeductions = Math.min(grossSalary * 0.06, 2160);// calculate NSSF deductions    
+    let netSalary = grossSalary - KRA - nhifDeductions - nssfDeductions;// calculate net salary
+
+    // calculate payee (KRA) following the condition given
+    KRA = 0;
     if (grossSalary <= 24000) {
     KRA = 0;
     } else if (grossSalary <= 40000) {
@@ -73,8 +71,8 @@ function calculateNetSalary() {
     KRA = 38400 + (grossSalary - 160000) * 0.35;
     }
 
-    // calculate NHIF deductions
-    let nhifDeductions = 0;
+    // calculate NHIF deductions following the condition given
+    nhifDeductions = 0;
     if (grossSalary <= 5999) {
     nhifDeductions = 150;
     } else if (grossSalary <= 7999) {
@@ -108,12 +106,6 @@ function calculateNetSalary() {
     } else {
     nhifDeductions = 1700;
     }
-
-    // calculate NSSF deductions
-    let nssfDeductions = Math.min(grossSalary * 0.06, 2160);
-
-    // calculate net salary
-    let netSalary = grossSalary - KRA - nhifDeductions - nssfDeductions;
 
     // display results on page
     document.getElementById("grossSalary").innerHTML = `Gross Salary: KES ${grossSalary.toFixed(2)}`;
