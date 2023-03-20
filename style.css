@@ -1,16 +1,16 @@
 .bigcontainer{
-    background-color: burlywood;
+    background-color: #daa520;
 }
 /* basic styling of Student Grade Generator */
 .box{
-    background-color: #a52aa5; 
+    background-color: #ffff00;
     max-width: 600px;
     margin: auto;
     border-radius: 10pc 10px;  
 }
 .h1 {
     text-align: center;
-    color: aqua;
+
 }
 form {
     display: flex;
@@ -29,7 +29,7 @@ input[type="number"] {
     cursor: pointer;
 }
 .button1:hover {
-    background-color: #daa520;
+    background-color: #008000;
 }
 #result {
     text-align: center;
@@ -38,7 +38,7 @@ input[type="number"] {
 }
 /* basic styling of Speed Detector */
 .content {
-    background-color: #daa520;
+    background-color: #ffff00;
     max-width: 600px;
     margin: auto;
     border-radius: 1000px 1000pc;
@@ -46,7 +46,7 @@ input[type="number"] {
 
 .head {
     text-align: center;
-    color: #4CAF50;
+
 }
 
 
@@ -64,13 +64,13 @@ input[type="number"] {
 .button2 {
     padding: 10px;
     border: none;
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     cursor: pointer;
 }
 
 .button2:hover {
-    background-color: #000000;
+    background-color: #008000;
 }
 
 #product {
@@ -80,59 +80,28 @@ input[type="number"] {
 }
 
 /* basic styling of Net Salary Calculator */
-  
 .container {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    background-color: #800000;
+    background-color: #ffff00;
     border-radius: 100px;
     
 }
-  
+
 .header {
-    color: #fff;
     text-align: center;
     margin-top: 0;
 }
-  
-.form-group {
-    margin-bottom: 10px;
-}
-  
-.form-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-  
-.form-input {
-    width: 100%;
+
+form.button {
     padding: 10px;
     border: none;
-    border-radius: 5px;
-    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
-}
-  
-.form-submit {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    background-color: #000000;
+    color: white;
     cursor: pointer;
 }
-  
-.results {
-    margin-top: 20px;
-    padding-top: 10px;
-    border-top: 1px solid #daa520;
-}
-  
-.result-label {
-    font-weight: bold;
-}
-  
-.result-value {
-    margin-left: 10px;
+
+form.button2:hover {
+    background-color: #008000;
 }
