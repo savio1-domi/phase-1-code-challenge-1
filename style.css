@@ -1,12 +1,12 @@
 .bigcontainer{
-    background-color: #000000;
+    background-color: burlywood;
 }
 /* basic styling of Student Grade Generator */
 .box{
-    background-color: #a52aa5;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #a52aa5; 
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10pc 10px;  
 }
 .h1 {
     text-align: center;
@@ -39,9 +39,9 @@ input[type="number"] {
 /* basic styling of Speed Detector */
 .content {
     background-color: #daa520;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 1000px 1000pc;
 }
 
 .head {
@@ -80,21 +80,18 @@ input[type="number"] {
 }
 
 /* basic styling of Net Salary Calculator */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
   
 .container {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #800000;
+    border-radius: 100px;
+    
 }
   
-.h1 {
+.header {
+    color: #fff;
     text-align: center;
     margin-top: 0;
 }
@@ -122,16 +119,14 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50;
-    color: #fff;
     font-weight: bold;
     cursor: pointer;
 }
   
 .results {
     margin-top: 20px;
-    border-top: 1px solid #ccc;
     padding-top: 10px;
+    border-top: 1px solid #daa520;
 }
   
 .result-label {
@@ -140,23 +135,4 @@ body {
   
 .result-value {
     margin-left: 10px;
-}
-.button{
-    background: transparent;
-    color: white;
-    font-weight: 750;
-    border: 1px solid white;
-    padding: 6px 8px;
-    cursor: pointer;
-    border-radius: 5px;
-    outline: none;
-    margin-top: 30px;
-    transition: 0.15s ease-in-out;
-}
-.button:hover{
-    background: transparent;
-    color: red;
-    font-weight: 750;
-    box-shadow: 2 2 2 2 white;
-    border: 1px solid red;
 }
