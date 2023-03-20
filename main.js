@@ -107,7 +107,7 @@ function calculateNetSalary() {
     nhifDeductions = 1700;
     }
 
-    // display results on page
+    // pop up results on page
     document.getElementById("grossSalary").innerHTML = `Gross Salary: KES ${grossSalary.toFixed(2)}`;
     document.getElementById("KRA").innerHTML = `Payee (KRA): KES ${KRA.toFixed(2)}`;
     document.getElementById("nhifDeductions").innerHTML = `NHIF Deductions: KES ${nhifDeductions.toFixed(2)}`;
