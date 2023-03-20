@@ -5,7 +5,7 @@ Has three projects
     <li>Student Grade Generator</li>
     <li>Speed Detector</li>
 </ul>
-built with JavaScript, HTML and CSS
+built with JavaScript(script), HTML(page) and CSS(presentation) 
 
 ## DESCRIPTION
 #### Student Grade Generator
