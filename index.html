@@ -35,27 +35,25 @@
         <!-- Net Salary Calculator-->
         <div>
             <div class="container">
-                <h1 class="header">Net Salary Calculator</h1>
-                  
-                  <form>
-                      <label for="basicSalary">Basic Salary:</label>
-                      <input type="number" id="basicSalary" name="basicSalary" required><br><br>
-                      
-                      <label for="benefits">Benefits:</label>
-                      <input type="number" id="benefits" name="benefits" required><br><br>
-                      
-                      <button type="button" onclick="calculateNetSalary()">Calculate Net Salary</button>
-                  </form>
-                  
-                  <br>
-              <div class="result">
-                  <h2>Results</h2>
-                  <p id="grossSalary"></p>
-                  <p id="KRA"></p>
-                  <p id="nhifDeductions"></p>
-                  <p id="nssfDeductions"></p>
-                  <p id="netSalary"></p>
-              </div>
+             <h1 class="header">Net Salary Calculator</h1>
+                
+             <form>
+               <label for="basicSalary">Basic Salary:</label>
+               <input type="number" id="basicSalary" name="basicSalary" required><br><br>
+               <label for="benefits">Benefits:</label>
+               <input type="number" id="benefits" name="benefits" required><br><br>
+               <button class="button" type="button" onclick="calculateNetSalary()">Calculate Net Salary</button>
+             </form>
+                
+             <br>
+             <span class="result">
+                <h2>Results</h2>
+                <p id="grossSalary"></p>
+                <p id="KRA"></p>
+                <p id="nhifDeductions"></p>
+                <p id="nssfDeductions"></p>
+                <p id="netSalary"></p>
+             </span>
             </div>
         </div>
     </div>
