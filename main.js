@@ -1,5 +1,5 @@
 // Student Grade Generator
-function generateGrade() {
+function studentGradeGenerator() {
     // variables
     const marks = document.getElementById("marks").value;
     let grade;
@@ -23,7 +23,7 @@ function generateGrade() {
 
 
 // Speed Detector
-function detectSpeed() {
+function speedDetect() {
     // variables
     const speed = document.getElementById("speed").value;
     let demeritPoints = 0;
@@ -39,7 +39,7 @@ function detectSpeed() {
     } else if (demeritPoints > 0) {
       resultElement.innerHTML = `Points: ${demeritPoints}`;
     } else {
-      resultElement.innerHTML = "YES";
+      resultElement.innerHTML = "OK";
     }
 }
 
